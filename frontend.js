@@ -27,7 +27,6 @@ let frontendFunction = async () => {
                 <p>Description: ${userinput.description}</p>
                 <p><a href="${userinput.imageUrl}">Link to an image of the product</a></p>
                 <p>${userinput._id}</p>
-                <small>Created at: ${userinput.createdAt}</small>
                 <span>$${userinput.price}</span>
                 <button type="button" class="btn btn-light">Edit</button>
               </div>
